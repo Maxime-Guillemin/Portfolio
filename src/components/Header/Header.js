@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { useSpring, animated } from 'react-spring';
 import './Header.css';
 
+import ThemeToggler from './ThemeToggler';
+import styled, { ThemeContext } from 'styled-components';
 import {Container,Nav,Navbar} from 'react-bootstrap';
+
 
 
 
@@ -12,6 +15,8 @@ const Header = () => {
     from: { opacity: 0 },
     delay: 500, // Ajoutez un délai si nécessaire
   });
+
+  const theme = useContext(ThemeContext);
 
   const linkAnimation = useSpring({
     borderBottom: '2px solid #ff6600', // Trait au survol
@@ -31,6 +36,8 @@ const Header = () => {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
           </Nav>
+          <ThemeToggler
+          />
         </Navbar.Collapse>
       </Container>
     </Navbar>
