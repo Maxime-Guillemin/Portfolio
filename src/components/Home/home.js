@@ -24,6 +24,8 @@ const Home = () => {
       </div>
       <Social />
     </div>
+    <div className='test'>
+    </div>
   </Fade>
   );
 };
