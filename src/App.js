@@ -6,9 +6,8 @@ import useDarkMode from 'use-dark-mode';
 import AppContext from './AppContext';
 import GlobalStyles from './theme/GlobalStyles';
 import { lightTheme, darkTheme } from './theme/themes';
-
-import Header from './components/Header/Header'
-import Home from './components/Home/Home'
+import MainApp from './MainApp'
+import {BrowserRouter} from 'react-router-dom'
 
 function App() {
   window.matchMedia = null;
@@ -19,8 +18,10 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-            <Header />
-            <Home />
+        <BrowserRouter>
+          <MainApp/>
+        </BrowserRouter>
+
         </div>
       </ThemeProvider>
     </AppContext.Provider>

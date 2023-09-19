@@ -2,7 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
 import './Home.css'
-
+import { BrowserRouter } from 'react-router-dom';
 import Social from './Social/Social';
 
 
