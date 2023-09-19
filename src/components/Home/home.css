@@ -14,3 +14,17 @@
   .inlineChild {
     display: inline-block;
   }
+
+  .Typewriter__wrapper {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+  .Typewriter__cursor {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+  
+  
+  
