@@ -10,7 +10,7 @@ const Header = () => {
   const headerAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    delay: 600, // Ajoutez un délai si nécessaire
+    delay: 500, // Ajoutez un délai si nécessaire
   });
 
   const linkAnimation = useSpring({

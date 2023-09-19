@@ -1,0 +1,31 @@
+import React from 'react';
+import Typewriter from 'typewriter-effect';
+import Fade from 'react-reveal';
+import './Home.css'
+
+import Social from './Social/Social';
+
+
+const Home = () => {
+
+  return (
+    
+    <Fade>
+    <div className='mainContainer' >
+      <h1 className='nameStyle'> Maxime Guillemin </h1>
+      <div  style={{ flexDirection: 'row' }}>
+        <Typewriter
+          options={{
+            loop: true,
+            autoStart: true,
+            strings:"Développeur web",
+          }}
+        />
+      </div>
+      <Social />
+    </div>
+  </Fade>
+  );
+};
+
+export default Home;
