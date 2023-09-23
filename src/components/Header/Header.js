@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import './Header.css';
 
+import {Link} from 'react-router-dom'
+
 import ThemeToggler from './ThemeToggler';
 import styled, { ThemeContext } from 'styled-components';
 import { Container, Nav, Navbar } from 'react-bootstrap';
@@ -40,19 +42,17 @@ const Header = () => {
             <Nav className="me-auto">
               {/* Ajoutez la classe spécifique aux liens et un gestionnaire de clic */}
               <Nav.Link
-                href="#home"
                 className={`header-navbar-link ${activeLink === 'home' ? 'active' : ''}`}
                 onClick={() => handleLinkClick('home')}
               >
-                Home
+                <Link to="/">Accueil</Link>
               </Nav.Link>
               {/* Ajoutez la classe spécifique aux liens et un gestionnaire de clic */}
               <Nav.Link
-                href="#link"
                 className={`header-navbar-link ${activeLink === 'link' ? 'active' : ''}`}
                 onClick={() => handleLinkClick('link')}
               >
-                Link
+                 <Link to="/competence">Compétences</Link>
               </Nav.Link>
             </Nav>
             <ThemeToggler />
