@@ -29,15 +29,15 @@
 }
 
 /* Style des liens actuellement cliqués (ajoutez ceci) */
-.header .header-navbar-link.active {
-  color: #ff6600; /* Couleur du texte en orange pour les liens actifs */
+.active a {
+  color: #ff6600 !important; /* Couleur du texte en orange pour les liens actifs */
 }
 
-.header a:hover {
+.header .header-navbar-link a:hover {
   color: #ff6600;
 }
 
-.header a:hover::after {
+.header .header-navbar-link a:hover::after {
   width: 100%;
 }
 

@@ -18,7 +18,7 @@ const Header = () => {
   const theme = useContext(ThemeContext);
 
   // État pour suivre le lien actif
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState('home');
 
   const linkAnimation = useSpring({
     borderBottom: '2px solid #ff6600',
@@ -33,6 +33,8 @@ const Header = () => {
     setActiveLink(link);
   };
 
+  console.log(activeLink)
+
   return (
     <animated.header className="header" style={headerAnimation}>
       <Navbar expand="lg" variant="dark" >
@@ -42,15 +44,15 @@ const Header = () => {
             <Nav className="me-auto">
               {/* Ajoutez la classe spécifique aux liens et un gestionnaire de clic */}
               <Nav.Link
-                className={`header-navbar-link ${activeLink === 'home' ? 'active' : ''}`}
+                className={`header-navbar-link ${activeLink === 'home' ? ' active' : ''}`}
                 onClick={() => handleLinkClick('home')}
               >
                 <Link to="/">Accueil</Link>
               </Nav.Link>
               {/* Ajoutez la classe spécifique aux liens et un gestionnaire de clic */}
               <Nav.Link
-                className={`header-navbar-link ${activeLink === 'link' ? 'active' : ''}`}
-                onClick={() => handleLinkClick('link')}
+                className={`header-navbar-link ${activeLink === 'competence' ? ' active' : ''}`}
+                onClick={() => handleLinkClick('competence')}
               >
                  <Link to="/competence">Compétences</Link>
               </Nav.Link>
