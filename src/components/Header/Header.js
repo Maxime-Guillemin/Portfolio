@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <animated.header className="header" style={headerAnimation}>
-      <Navbar expand="lg">
+      <Navbar expand="lg" variant="dark" >
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
