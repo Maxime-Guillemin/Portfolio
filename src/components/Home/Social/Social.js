@@ -23,7 +23,7 @@ function Social() {
                 key="linkedin"
                 fgColor={fgColor}
                  style={styles.iconStyle}
-                url="https://linkedin.com/"
+                url="https://www.linkedin.com/in/maxime-guillemin-104370210/"
                 network="linkedin"
                 bgColor={theme.socialIconBgColor}
                 target="_blank"
@@ -34,7 +34,7 @@ function Social() {
                 key="github"
                 fgColor={fgColor}
                  style={styles.iconStyle}
-                url="https://github.com/"
+                url="https://github.com/Maxime-Guillemin"
                 network="github"
                 bgColor={theme.socialIconBgColor}
                 target="_blank"
@@ -45,7 +45,7 @@ function Social() {
                 key="email"
                 fgColor={fgColor}
                  style={styles.iconStyle}
-                url="mailto:test@test.com"
+                url="mailto:max.guillemin@free.fr"
                 network="email"
                 bgColor={theme.socialIconBgColor}
                 target="_blank"
