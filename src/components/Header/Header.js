@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import './Header.css';
 
-import {Link} from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 import ThemeToggler from './ThemeToggler';
 import styled, { ThemeContext } from 'styled-components';
@@ -16,9 +16,10 @@ const Header = () => {
   });
 
   const theme = useContext(ThemeContext);
+  const location = useLocation(); // Obtenez la route actuelle
 
-  // État pour suivre le lien actif
-  const [activeLink, setActiveLink] = useState('home');
+  // État pour suivre le lien actif, initialisé avec la route actuelle
+  const [activeLink, setActiveLink] = useState(location.pathname);
 
   const linkAnimation = useSpring({
     borderBottom: '2px solid #ff6600',
@@ -27,13 +28,10 @@ const Header = () => {
     from: { borderBottom: '2px solid transparent', paddingBottom: '3px', opacity: 0 },
   });
 
-
   // Gestionnaire de clic de lien
   const handleLinkClick = (link) => {
     setActiveLink(link);
   };
-
-  console.log(activeLink)
 
   return (
     <animated.header className="header" style={headerAnimation}>
@@ -44,15 +42,15 @@ const Header = () => {
             <Nav className="me-auto">
               {/* Ajoutez la classe spécifique aux liens et un gestionnaire de clic */}
               <Nav.Link
-                className={`header-navbar-link ${activeLink === 'home' ? ' active' : ''}`}
-                onClick={() => handleLinkClick('home')}
+                className={`header-navbar-link ${activeLink === '/' ? ' active' : ''}`}
+                onClick={() => handleLinkClick('/')}
               >
                 <Link to="/">Accueil</Link>
               </Nav.Link>
               {/* Ajoutez la classe spécifique aux liens et un gestionnaire de clic */}
               <Nav.Link
-                className={`header-navbar-link ${activeLink === 'competence' ? ' active' : ''}`}
-                onClick={() => handleLinkClick('competence')}
+                className={`header-navbar-link ${activeLink === '/competence' ? ' active' : ''}`}
+                onClick={() => handleLinkClick('/competence')}
               >
                  <Link to="/competence">Compétences</Link>
               </Nav.Link>
