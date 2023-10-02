@@ -1,0 +1,28 @@
+/* Competence.css */
+
+.competenceContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Style des icônes */
+  .competenceContainer svg {
+    margin: 10px; /* Marge autour des icônes */
+    transition: transform 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Animation au survol */
+  .competenceContainer svg:hover {
+    transform: scale(1.2); /* Agrandir l'icône au survol */
+    color: #e97f39; /* Couleur de l'icône au survol */
+    border: 2px solid orange;
+    border-radius: 10%; /* pour arrondir les coins de l'icône */
+    
+  }
+  
