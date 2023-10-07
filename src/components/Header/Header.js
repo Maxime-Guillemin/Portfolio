@@ -40,20 +40,25 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              {/* Ajoutez la classe spécifique aux liens et un gestionnaire de clic */}
               <Nav.Link
                 className={`header-navbar-link ${activeLink === '/' ? ' active' : ''}`}
                 onClick={() => handleLinkClick('/')}
               >
                 <Link to="/">Accueil</Link>
               </Nav.Link>
-              {/* Ajoutez la classe spécifique aux liens et un gestionnaire de clic */}
+              <Nav.Link
+                className={`header-navbar-link ${activeLink === '/APropos' ? ' active' : ''}`}
+                onClick={() => handleLinkClick('/APropos')}
+              >
+                 <Link to="/APropos">A propos de moi</Link>
+              </Nav.Link>
               <Nav.Link
                 className={`header-navbar-link ${activeLink === '/competence' ? ' active' : ''}`}
                 onClick={() => handleLinkClick('/competence')}
               >
                  <Link to="/competence">Compétences</Link>
               </Nav.Link>
+
             </Nav>
             <ThemeToggler />
           </Navbar.Collapse>

@@ -35,10 +35,6 @@ const Competences = () => {
         <SiGit size={50}/> 
         <FaNode size={60}/> 
 
-
-  
-
-  
       </div>
     );
 };
