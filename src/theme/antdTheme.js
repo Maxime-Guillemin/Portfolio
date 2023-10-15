@@ -2,20 +2,23 @@ export const antdThemeLight = {
   components: {
     Timeline: {
 
+
     },
   },
   token: {
-    colorText : 'black'
+    colorText : 'black',
+    fontSize: 18
   },
 };
 
 export const antdThemeDark = {
   components: {
     Timeline: {
-      tailColor : 'white'
+      tailColor : '#fae3b7'
     },
   },
   token: {
-    colorText : 'white'
+    colorText : 'white',
+    fontSize : 18
   },
 };

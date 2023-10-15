@@ -11,7 +11,7 @@ const Home = () => {
   return (
     
     <Fade>
-    <div className='mainContainer' >
+    <div className='mainContainer title' >
       <h1 className='nameStyle'> Maxime Guillemin </h1>
       <div  style={{ flexDirection: 'row' }}>
         <Typewriter
