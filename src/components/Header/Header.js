@@ -53,6 +53,12 @@ const Header = () => {
                  <Link to="/APropos">A propos de moi</Link>
               </Nav.Link>
               <Nav.Link
+                className={`header-navbar-link ${activeLink === '/diplomes' ? ' active' : ''}`}
+                onClick={() => handleLinkClick('/diplomes')}
+              >
+                 <Link to="/diplomes">Diplômes</Link>
+              </Nav.Link>
+              <Nav.Link
                 className={`header-navbar-link ${activeLink === '/competence' ? ' active' : ''}`}
                 onClick={() => handleLinkClick('/competence')}
               >

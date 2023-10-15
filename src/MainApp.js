@@ -4,6 +4,8 @@ import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Competence from './components/Competence/Competence';
 import APropos from './components/APropos/APropos';
+import Diplomes from './components/Diplomes/Diplomes';
+
 
 function MainApp() {
   return (
@@ -19,6 +21,9 @@ function MainApp() {
           </Route>
           <Route exact path="/APropos">
             <APropos />
+          </Route>
+          <Route exact path="/diplomes">
+            <Diplomes />
           </Route>
         </Switch>
       </div>

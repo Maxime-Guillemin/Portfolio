@@ -1,4 +1,10 @@
 export const lightTheme = {
+  components: {
+    Timeline: {
+      tailWidth : 30,
+      tailColor : 'red'
+    },
+  },
   background: '#fff',
   color: '#121212',
   accentColor: '#3D84C6',
@@ -42,4 +48,12 @@ export const darkTheme = {
   bsPrimaryVariant: 'dark',
   bsSecondaryVariant: 'light',
   socialIconBgColor: '#fefefe',
+
+  components: {
+    Timeline: {
+      tailWidth : 30,
+      tailColor : 'red'
+    },
+
+  },
 };
