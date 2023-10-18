@@ -1,11 +1,6 @@
 export const lightTheme = {
-  components: {
-    Timeline: {
-      tailWidth : 30,
-      tailColor : 'red'
-    },
-  },
-  background: '#fff',
+  
+  background: '#F5F7F8',
   color: '#121212',
   accentColor: '#3D84C6',
   chronoTheme: {
@@ -49,11 +44,6 @@ export const darkTheme = {
   bsSecondaryVariant: 'light',
   socialIconBgColor: '#fefefe',
 
-  components: {
-    Timeline: {
-      tailWidth : 30,
-      tailColor : 'red'
-    },
 
-  },
+  
 };

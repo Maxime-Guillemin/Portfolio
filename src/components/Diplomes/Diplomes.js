@@ -1,5 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 import {
   TbBellSchool, TbSchool
@@ -17,17 +19,17 @@ function Diplomes() {
   return (
     <div className="mainContainer">
       <VerticalTimeline
-      lineColor={ '#d7a173' }>
+        lineColor={ 'rgb(124, 123, 123)  ' }>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#2D4059", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "#2D4059" }}
+          contentArrowStyle={{ borderRight: "7px solid  #2D4059" }}
           date="2022 - 2024 à  Amiens"
           iconStyle={{ background: "#2D4059", color: "#fff" }}
-          icon={<TbSchool />}
+          icon={<TbSchool className="border-color"/>}
         >
           <h3 className="vertical-timeline-element-title">Master MIAGE</h3>
-          <h6 className="vertical-timeline-element-subtitle">
+          <h6 className="vertical-timeline-element-subtitle fst-italic">
             Master Méthodes Informatiques Appliquées à la Gestion des
             Entreprises
           </h6>
@@ -45,7 +47,7 @@ function Diplomes() {
           icon={<MdComputer />}
         >
           <h3 className="vertical-timeline-element-title">Licence Pro RGI</h3>
-          <h6 className="vertical-timeline-element-subtitle">
+          <h6 className="vertical-timeline-element-subtitle fst-italic">
             Licence professionnelle Réseaux et Génie Informatique
           </h6>
           <p>
@@ -63,7 +65,7 @@ function Diplomes() {
           icon={<MdComputer />}
         >
           <h3 className="vertical-timeline-element-title">DUT Informatique</h3>
-          <h6 className="vertical-timeline-element-subtitle">
+          <h6 className="vertical-timeline-element-subtitle fst-italic">
             Diplôme Universitaire de Technologie Informatique
           </h6>
           <p>Acquisition des bases de l'informatique. Réalisé en deux ans</p>
@@ -78,7 +80,7 @@ function Diplomes() {
           icon={<TbBellSchool />}
         >
           <h3 className="vertical-timeline-element-title">Bac STI2D</h3>
-          <h6 className="vertical-timeline-element-subtitle">Baccalauréat Science et Technologies de l'Industrie et du Développement Durable</h6>
+          <h6 className="vertical-timeline-element-subtitle fst-italic">Baccalauréat Science et Technologies de l'Industrie et du Développement Durable</h6>
           <p>
           Acquisition des bases de l'informatique et sensibilisation au développement durable. 
           </p>
@@ -93,7 +95,7 @@ function Diplomes() {
           icon={<GiSchoolBag/>}
         >
           <h3 className="vertical-timeline-element-title">Brevet des collèges</h3>
-          <h6 className="vertical-timeline-element-subtitle">On a vraiment besoin d'aller si loin ?</h6>
+          <p>On a vraiment besoin d'aller si loin ?</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

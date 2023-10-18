@@ -1,3 +1,12 @@
 .ant-timeline-item-label{
     color : rgb(173, 90, 90) 
 }
+
+.vertical-timeline-element-date{
+    color : rgb(124, 123, 123);
+    font-size : 19px !important;
+    font-weight: bold !important;
+}
+.vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px rgb(124, 123, 123);
+}
