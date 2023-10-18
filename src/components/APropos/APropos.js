@@ -9,9 +9,12 @@ function APropos() {
       <Row>
         <Col lg={6} className="d-flex align-items-center">
           <p>
-          Lorem ipsum dolor sit amet. Aut corporis quos in assumenda velit ut quis asperiores id Quis consequatur. Ut laudantium enim non expedita nisi ut delectus voluptatem non illum dolorum.
-          <br/><br/>Lorem ipsum dolor sit amet. Aut corporis quos in assumenda velit ut quis asperiores id Quis consequatur. Ut laudantium enim non expedita nisi ut delectus voluptatem non illum dolorum.
-            Lorem ipsum dolor sit amet. Aut corporis quos in assumenda velit ut quis asperiores id Quis consequatur. Ut laudantium enim non expedita nisi ut delectus voluptatem non illum dolorum.
+            Hey, je suis Maxime Guillemin, un développeur web qui adore créer des sites web magique même si, je n'ai toujours pas reçu ma lettre de Poudlard.
+            J'ai plongé tête la première dans le monde de l'informatique, et ça a été une aventure aussi passionnante que
+            tenter de résoudre un bug mystérieux à 3 heures du matin.
+            <br/><br/> En tant que développeur web en herbe, je mets en
+            œuvre mes compétences avec une variété d'outils, y compris des frameworks tels que React, que j'apprécie
+            particulièrement. Je ne demande qu'à m'améliorer et à apprendre de nouvelles choses pour repousser les limites de ma créativité.
           </p>
         </Col>
 
