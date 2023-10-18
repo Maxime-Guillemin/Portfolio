@@ -50,7 +50,7 @@ const Header = () => {
                 className={`header-navbar-link ${activeLink === '/APropos' ? ' active' : ''}`}
                 onClick={() => handleLinkClick('/APropos')}
               >
-                 <Link to="/APropos">A propos de moi</Link>
+                <Link to="/APropos">À propos de moi</Link>
               </Nav.Link>
               <Nav.Link
                 className={`header-navbar-link ${activeLink === '/diplomes' ? ' active' : ''}`}
