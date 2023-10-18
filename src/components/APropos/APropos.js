@@ -12,8 +12,7 @@ function APropos() {
             Hey, je suis Maxime Guillemin, un développeur web qui adore créer des sites web magique même si, je n'ai toujours pas reçu ma lettre de Poudlard.
             J'ai plongé tête la première dans le monde de l'informatique, et ça a été une aventure aussi passionnante que
             tenter de résoudre un bug mystérieux à 3 heures du matin.
-            <br/><br/> En tant que développeur web en herbe, je mets en
-            œuvre mes compétences avec une variété d'outils, y compris des frameworks tels que React, que j'apprécie
+            <br/><br/> En tant que développeur web en herbe, j'esaye de m'entrainer avec une variété d'outils, y compris des frameworks tels que React, que j'apprécie
             particulièrement. Je ne demande qu'à m'améliorer et à apprendre de nouvelles choses pour repousser les limites de ma créativité.
           </p>
         </Col>

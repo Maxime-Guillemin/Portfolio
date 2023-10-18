@@ -5,9 +5,9 @@
 	grid-template-rows: auto 1fr auto;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 body {
-	font-family: 'Nunito Sans', sans-serif !important;
+	font-family: 'Tilt Neon', sans-serif;
   }
   
 
