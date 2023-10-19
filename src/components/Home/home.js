@@ -11,7 +11,7 @@ const Home = () => {
     <>
 
     <div className='mainContainer title' >
-        <h1 className='nameStyle tilt'> Maxime Guillemin </h1>
+        <h1 className='nameStyle'> Maxime Guillemin </h1>
       <div  style={{ flexDirection: 'row' }}>
         <Typewriter
           options={{
