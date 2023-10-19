@@ -2,6 +2,7 @@ import React from 'react';
 import './APropos.css';
 import PhotoProfil from '../../assets/PhotoProfil.jpg';
 import { Container, Col, Row } from 'react-bootstrap';
+import transition from "../../transition"
 
 function APropos() {
   return (
@@ -25,4 +26,4 @@ function APropos() {
   );
 }
 
-export default APropos;
+export default transition(APropos);

@@ -2,7 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './Home.css'
 import Social from './Social/Social';
-
+import transition from "../../transition"
 
 const Home = () => {
 
@@ -29,4 +29,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default transition(Home);

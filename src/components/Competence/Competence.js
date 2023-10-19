@@ -1,5 +1,6 @@
 import React from 'react';
 import './Competence.css'
+import transition from "../../transition"
 import {
   SiTypescript, SiJavascript, SiCsharp, SiCplusplus, SiReact, SiSymfony, SiLaravel, SiAndroidstudio, SiUnity, SiGit, SiSpring
 } from "react-icons/si";
@@ -43,4 +44,4 @@ const Competences = () => {
     
 };
 
-export default Competences;
+export default transition(Competences);
