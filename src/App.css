@@ -9,6 +9,8 @@
 .tilt {
 	font-family: 'Tilt Neon', sans-serif;
   }
+
+  
   
 
 .mainContainer {
@@ -16,8 +18,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    
 }
 
 

@@ -6,14 +6,16 @@
   }
   
   h2 {
-    margin-top: 20px;
+
+    margin-top : 30px;
+
+    margin-bottom: 10px;
     font-size: 30px;
     font-weight: bold;
   }
   
   /* Style des icônes */
   .competenceContainer svg {
-    margin: 10px; /* Marge autour des icônes */
     transition: transform 0.3s, color 0.3s, box-shadow 0.3s;
   }
   
@@ -26,3 +28,11 @@
     
   }
   
+.wrapper {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  list-style-type: none;
+  margin: auto !important;
+  gap: 15px; 
+}

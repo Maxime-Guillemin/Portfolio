@@ -64,6 +64,12 @@ const Header = () => {
               >
                  <Link to="/competence">Compétences</Link>
               </Nav.Link>
+              <Nav.Link
+                className={`header-navbar-link ${activeLink === '/projets' ? ' active' : ''}`}
+                onClick={() => handleLinkClick('/projets')}
+              >
+                <Link to="/projets">Projets</Link>
+              </Nav.Link>
 
             </Nav>
             <ThemeToggler />

@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Competence from './components/Competence/Competence';
 import APropos from './components/APropos/APropos';
+import Projets from './components/Projets/Projets';
 import Diplomes from './components/Diplomes/Diplomes';
 import { AnimatePresence } from 'framer-motion';
 
@@ -29,7 +30,10 @@ function MainApp() {
           </Route>
           <Route exact path="/diplomes">
             <Diplomes />
-          </Route>
+            </Route>
+            <Route exact path="/Projets">
+              <Projets />
+            </Route>
           </Switch>
         </AnimatePresence>
       </div>
