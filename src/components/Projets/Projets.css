@@ -1,0 +1,29 @@
+.card-container {
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  transition: filter 0.5s; /* Transition pour l'effet de flou */
+}
+
+.card-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* L'icône est initialement invisible */
+  transition: opacity 0.5s; /* Transition pour l'icône */
+  cursor: pointer;
+}
+
+.card-container:hover .card-image {
+  filter: blur(5px); /* Flou au survol */
+}
+
+.card-container:hover .card-icon {
+  opacity: 1; /* Affichage de l'icône au survol */
+}
+
+
+ 

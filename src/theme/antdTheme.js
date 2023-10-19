@@ -1,9 +1,5 @@
 export const antdThemeLight = {
   components: {
-    Timeline: {
-
-
-    },
   },
   token: {
     colorText : 'black',
@@ -13,12 +9,11 @@ export const antdThemeLight = {
 
 export const antdThemeDark = {
   components: {
-    Timeline: {
-      tailColor : '#fae3b7'
-    },
+
   },
   token: {
     colorText : 'white',
-    fontSize : 18
+    fontSize: 18,
+    colorBgContainer : 'black'
   },
 };
