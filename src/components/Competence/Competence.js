@@ -1,7 +1,7 @@
 import React from 'react';
 import './Competence.css'
 import {
-  SiTypescript,SiJavascript, SiCsharp, SiCplusplus, SiReact, SiSymfony, SiLaravel, SiAndroidstudio, SiUnity,SiGit
+  SiTypescript, SiJavascript, SiCsharp, SiCplusplus, SiReact, SiSymfony, SiLaravel, SiAndroidstudio, SiUnity, SiGit, SiSpring
 } from "react-icons/si";
 
 import{FaJava, FaNode} from "react-icons/fa"
@@ -30,6 +30,7 @@ const Competences = () => {
           <SiLaravel size={55} title="Laravel" />
           <SiAndroidstudio size={50} title="Android Studio" />
           <SiUnity size={50} title="Unity" />
+          <SiSpring size={50} title="SiSpring" />
 
           <h2>Autres :</h2>
 
