@@ -28,9 +28,10 @@ const Competences = () => {
           <SiReact size={50} title="React" />
           <SiSymfony size={50} title="Symfony" />
           <SiLaravel size={55} title="Laravel" />
+          <SiSpring size={50} title="SiSpring" />
           <SiAndroidstudio size={50} title="Android Studio" />
           <SiUnity size={50} title="Unity" />
-          <SiSpring size={50} title="SiSpring" />
+
 
           <h2>Autres :</h2>
 
