@@ -140,7 +140,7 @@ const Projets = () => {
               <img className="card-image mb-2" src={IndicateurOdema} alt="IndicateurOdema" />
               <Tag color={color.typescrypt}>TypeScript</Tag>
               <Tag color={color.react}>React</Tag>
-              <p className='mt-2'>Tableau de bord pour l'Observatoire déchets et matière dans le cadre de mon travail à la région HDF.</p>
+              <p className='mt-2'>Tableau de bord pour l'Observatoire déchets et matières dans le cadre de mon travail à la région HDF.</p>
                 <a href="https://github.com/geo2france/odema-viz" target="_blank" rel="noopener noreferrer">
                 <li>
                   <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
