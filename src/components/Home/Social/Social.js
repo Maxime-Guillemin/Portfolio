@@ -44,7 +44,7 @@ function Social() {
         <div>
 
             <motion.ul
-                className="container"
+                className="containerSocial"
                 variants={container}
                 initial="hidden"
                 animate="visible"
