@@ -16,6 +16,7 @@ import {
 import LaVraieMifa from '../../assets/LaVraieMifa.jpg';
 import LaravelOutil from '../../assets/LaravelOutils.jpg';
 import CentreVille from '../../assets/CentreVille.jpg';
+import Portfolio from '../../assets/Portfolio.jpg';
 
 const Projets = () => {
 
@@ -25,7 +26,10 @@ const Projets = () => {
   var color = {
     php: "#ff5733",
     symfony: "#EBADB1",
-    laravel:"#5ab1bb",
+    laravel: "#5ab1bb",
+    javascript: "#b233ff",
+    react: "#ff9333",
+    typescrypt:"#591f0a"
   }
 
   return (
@@ -37,7 +41,7 @@ const Projets = () => {
             <img className="card-image mb-2" src={LaVraieMifa} alt="LaVraieMifa" />
             <Tag color={color.symfony}>Symfony</Tag>
             <Tag color={color.php}>Php</Tag>
-            <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
+            <p className='mt-2'>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
               <div className="icon-container">
                 <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
                   <i className="card-icon git"> <AiFillGithub size={50} title="GitHub" /></i>
@@ -55,7 +59,7 @@ const Projets = () => {
               <img className="card-image mb-2" src={LaravelOutil} alt="LaVraieMifa" />
               <Tag color={color.laravel}>Laravel</Tag>
               <Tag color={color.php}>Php</Tag>
-            <p>Projet pédagogique, découverte de laravel.</p>
+            <p className='mt-2'>Projet pédagogique, découverte de laravel.</p>
               <a href="https://github.com/VoltalitSama/Laravel" target="_blank" rel="noopener noreferrer">
                 <li>
                   <i className="card-icon"> <AiFillGithub size={50} title="Git" /></i>
@@ -68,9 +72,8 @@ const Projets = () => {
         <div className="card-container">
             <Card style={{ backgroundColor: "#0C7C59" }} title="Tableau de bord centre-ville" className='bg-cyan' bordered={false}>
               <img className="card-image mb-2" src={CentreVille} alt="LaVraieMifa" />
-            <Tag color="#ff5733">Symfony</Tag>
-            <Tag color="#e8b339">Php</Tag>
-            <p>Tableau de bord dans le cadre de mon travail à la région HDF.</p>
+              <Tag color={color.javascript}>JavaScript</Tag>
+            <p className='mt-2'>Tableau de bord dans le cadre de mon travail à la région HDF.</p>
               <a href="https://github.com/MaximeGuillemin/dashboard-cv" target="_blank" rel="noopener noreferrer">
                 <li>
                   <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
@@ -87,11 +90,11 @@ const Projets = () => {
       <Row className="justify-content-md-center mt-5">
         <Col lg="3">
           <div className="card-container">
-            <Card style={{ backgroundColor: "#2d4059" }} title="La Vraie Mifa" className='bg-red' bordered={false}>
-              <img className="card-image mb-2" src={LaVraieMifa} alt="LaVraieMifa" />
-              <Tag color="#ff5733">Symfony</Tag>
-              <Tag color="#e8b339">Php</Tag>
-              <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
+            <Card style={{ backgroundColor: "#2d4059" }} title="Portfolio" className='bg-red' bordered={false}>
+              <img className="card-image mb-2" src={Portfolio} alt="LaVraieMifa" />
+              <Tag color={color.laravel}>JavaScript</Tag>
+              <Tag color={color.react}>React</Tag>
+              <p className='mt-2'>Mon portfolio :D</p>
               <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
                 <li>
                   <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
@@ -105,11 +108,11 @@ const Projets = () => {
         </Col>
         <Col lg="3">
           <div className="card-container">
-            <Card style={{ backgroundColor: "#e84545" }} title="La Vraie Mifa" className='bg-red' bordered={false}>
+            <Card style={{ backgroundColor: "#e84545" }} title="Projet indicateur ODEMA" className='bg-red' bordered={false}>
               <img className="card-image mb-2" src={LaVraieMifa} alt="LaVraieMifa" />
-              <Tag color="#ff5733">Symfony</Tag>
-              <Tag color="#e8b339">Php</Tag>
-              <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
+              <Tag color={color.typescrypt}>TypeScript</Tag>
+              <Tag color={color.react}>React</Tag>
+              <p className='mt-2'>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
               <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
                 <li>
                   <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
