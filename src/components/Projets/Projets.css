@@ -18,12 +18,14 @@
 }
 
 .card-container:hover .card-image {
-  filter: blur(5px); /* Flou au survol */
+  filter: blur(2px); /* Flou au survol */
 }
 
 .card-container:hover .card-icon {
   opacity: 1; /* Affichage de l'icône au survol */
 }
 
-
- 
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}

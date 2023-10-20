@@ -2,11 +2,10 @@ export const antdThemeLight = {
   components: {
   },
   token: {
-    colorText : 'black',
+    colorText: 'white',
     fontSize: 18
   },
 };
-
 export const antdThemeDark = {
   components: {
 
