@@ -4,6 +4,7 @@ import transition from '../../transition';
 import { Card, Tag } from 'antd';
 import { Row, Col } from 'react-bootstrap';
 import './Projets.css';
+import { motion } from "framer-motion"
 
 import AppContext from '../../AppContext';
 
@@ -32,11 +33,36 @@ const Projets = () => {
     typescrypt:"#591f0a"
   }
 
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1
+    }
+  };
+
+  const container = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.3,
+        staggerChildren: 0.2
+      }
+    }
+  };
+
   return (
     <>
+      <motion.div
+        variants={container}
+        initial="hidden"
+        animate="visible">
+        
     <Row className="justify-content-md-center mt-5">
       <Col lg="3">
-        <div className="card-container">
+          <motion.div variants={item} className="card-container">
             <Card style={{ backgroundColor: "#e84545" } } title="La Vraie Mifa" bordered={false}>
             <img className="card-image mb-2" src={LaVraieMifa} alt="LaVraieMifa" />
             <Tag color={color.symfony}>Symfony</Tag>
@@ -51,10 +77,10 @@ const Projets = () => {
                 </a>
               </div>
           </Card>
-        </div>
+        </motion.div>
       </Col>
       <Col lg="3">
-        <div className="card-container">
+        <motion.div variants={item} className="card-container">
             <Card style={{ backgroundColor: "#2d4059" }} title="Laravel, outils" className='bg-red' bordered={false}>
               <img className="card-image mb-2" src={LaravelOutil} alt="LaVraieMifa" />
               <Tag color={color.laravel}>Laravel</Tag>
@@ -66,10 +92,10 @@ const Projets = () => {
                 </li>
               </a>
             </Card>
-        </div>
+        </motion.div>
       </Col>
       <Col lg="3">
-        <div className="card-container">
+        <motion.div variants={item} className="card-container">
             <Card style={{ backgroundColor: "#0C7C59" }} title="Tableau de bord centre-ville" className='bg-cyan' bordered={false}>
               <img className="card-image mb-2" src={CentreVille} alt="LaVraieMifa" />
               <Tag color={color.javascript}>JavaScript</Tag>
@@ -83,13 +109,13 @@ const Projets = () => {
                 <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
           </Card>
-        </div>
+        </motion.div>
       </Col>
     </Row>
 
       <Row className="justify-content-md-center mt-5">
         <Col lg="3">
-          <div className="card-container">
+          <motion.div variants={item} className="card-container">
             <Card style={{ backgroundColor: "#2d4059" }} title="Portfolio" className='bg-red' bordered={false}>
               <img className="card-image mb-2" src={Portfolio} alt="LaVraieMifa" />
               <Tag color={color.laravel}>JavaScript</Tag>
@@ -104,10 +130,10 @@ const Projets = () => {
                 <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
             </Card>
-          </div>
+          </motion.div>
         </Col>
         <Col lg="3">
-          <div className="card-container">
+          <motion.div variants={item} className="card-container">
             <Card style={{ backgroundColor: "#e84545" }} title="Projet indicateur ODEMA" className='bg-red' bordered={false}>
               <img className="card-image mb-2" src={LaVraieMifa} alt="LaVraieMifa" />
               <Tag color={color.typescrypt}>TypeScript</Tag>
@@ -122,11 +148,11 @@ const Projets = () => {
                 <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
             </Card>
-          </div>
+          </motion.div>
         </Col>
 
       </Row>
-      
+      </motion.div>
     </>
 
   );
