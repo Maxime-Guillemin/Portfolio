@@ -1,10 +1,10 @@
-.card-container {
-  position: relative;
+.ant-card{
+  height: 400px;
 }
-
 .card-image {
   width: 100%;
   transition: filter 0.5s; /* Transition pour l'effet de flou */
+  min-height: 140px;
 }
 
 .card-icon {

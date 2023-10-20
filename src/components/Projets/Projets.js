@@ -11,7 +11,11 @@ import AppContext from '../../AppContext';
 import {
   AiFillGithub, AiOutlineLink
 } from "react-icons/ai";
+
+
 import LaVraieMifa from '../../assets/LaVraieMifa.jpg';
+import LaravelOutil from '../../assets/LaravelOutils.jpg';
+import CentreVille from '../../assets/CentreVille.jpg';
 
 const Projets = () => {
 
@@ -20,7 +24,8 @@ const Projets = () => {
 
   var color = {
     php: "#ff5733",
-    symfony :"#e8b339"
+    symfony: "#EBADB1",
+    laravel:"#5ab1bb",
   }
 
   return (
@@ -29,7 +34,7 @@ const Projets = () => {
       <Col lg="3">
         <div className="card-container">
             <Card style={{ backgroundColor: "#e84545" } } title="La Vraie Mifa" bordered={false}>
-            <img className="card-image" src={LaVraieMifa} alt="LaVraieMifa" />
+            <img className="card-image mb-2" src={LaVraieMifa} alt="LaVraieMifa" />
             <Tag color={color.symfony}>Symfony</Tag>
             <Tag color={color.php}>Php</Tag>
             <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
@@ -46,35 +51,32 @@ const Projets = () => {
       </Col>
       <Col lg="3">
         <div className="card-container">
-            <Card style={{ backgroundColor: "#2d4059" }} title="La Vraie Mifa" className='bg-red' bordered={false}>
-            <img className="card-image" src={LaVraieMifa} alt="LaVraieMifa" />
-            <Tag color="#ff5733">Symfony</Tag>
-            <Tag color="#e8b339">Php</Tag>
-            <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
-              <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
+            <Card style={{ backgroundColor: "#2d4059" }} title="Laravel, outils" className='bg-red' bordered={false}>
+              <img className="card-image mb-2" src={LaravelOutil} alt="LaVraieMifa" />
+              <Tag color={color.laravel}>Laravel</Tag>
+              <Tag color={color.php}>Php</Tag>
+            <p>Projet pédagogique, découverte de laravel.</p>
+              <a href="https://github.com/VoltalitSama/Laravel" target="_blank" rel="noopener noreferrer">
                 <li>
-                  <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
+                  <i className="card-icon"> <AiFillGithub size={50} title="Git" /></i>
                 </li>
-              </a>
-              <a href="https://lavraiemifa.fr/" target="_blank" rel="noopener noreferrer">
-                <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
             </Card>
         </div>
       </Col>
       <Col lg="3">
         <div className="card-container">
-            <Card style={{ backgroundColor: "#0C7C59" }} title="La Vraie Mifa" className='bg-cyan' bordered={false}>
-            <img className="card-image" src={LaVraieMifa} alt="LaVraieMifa" />
+            <Card style={{ backgroundColor: "#0C7C59" }} title="Tableau de bord centre-ville" className='bg-cyan' bordered={false}>
+              <img className="card-image mb-2" src={CentreVille} alt="LaVraieMifa" />
             <Tag color="#ff5733">Symfony</Tag>
             <Tag color="#e8b339">Php</Tag>
-            <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
-              <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
+            <p>Tableau de bord dans le cadre de mon travail à la région HDF.</p>
+              <a href="https://github.com/MaximeGuillemin/dashboard-cv" target="_blank" rel="noopener noreferrer">
                 <li>
                   <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
                 </li>
               </a>
-              <a href="https://lavraiemifa.fr/" target="_blank" rel="noopener noreferrer">
+              <a href="https://sig.hautsdefrance.fr/ext/dashboard-cv/7486746456oikopiklp56456lv4/" target="_blank" rel="noopener noreferrer">
                 <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
           </Card>
@@ -86,7 +88,7 @@ const Projets = () => {
         <Col lg="3">
           <div className="card-container">
             <Card style={{ backgroundColor: "#2d4059" }} title="La Vraie Mifa" className='bg-red' bordered={false}>
-              <img className="card-image" src={LaVraieMifa} alt="LaVraieMifa" />
+              <img className="card-image mb-2" src={LaVraieMifa} alt="LaVraieMifa" />
               <Tag color="#ff5733">Symfony</Tag>
               <Tag color="#e8b339">Php</Tag>
               <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
@@ -104,7 +106,7 @@ const Projets = () => {
         <Col lg="3">
           <div className="card-container">
             <Card style={{ backgroundColor: "#e84545" }} title="La Vraie Mifa" className='bg-red' bordered={false}>
-              <img className="card-image" src={LaVraieMifa} alt="LaVraieMifa" />
+              <img className="card-image mb-2" src={LaVraieMifa} alt="LaVraieMifa" />
               <Tag color="#ff5733">Symfony</Tag>
               <Tag color="#e8b339">Php</Tag>
               <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
