@@ -29,3 +29,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+.git{
+  margin-left: -40px;
+}
+.link{
+  margin-left: 40px;
+}

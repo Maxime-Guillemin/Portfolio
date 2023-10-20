@@ -35,10 +35,10 @@ const Projets = () => {
             <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
               <div className="icon-container">
                 <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
-                  <i className="card-icon"> <AiFillGithub size={50} title="GitHub" /></i>
+                  <i className="card-icon git"> <AiFillGithub size={50} title="GitHub" /></i>
                 </a>
-                <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
-                  <i className="card-icon"> <AiOutlineLink size={50} title="Link" /></i>
+                <a href="https://lavraiemifa.fr/" target="_blank" rel="noopener noreferrer">
+                  <i className="card-icon link"> <AiOutlineLink size={50} title="Link" /></i>
                 </a>
               </div>
           </Card>
@@ -53,11 +53,11 @@ const Projets = () => {
             <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
               <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
                 <li>
-                  <i className="card-icon "> <AiFillGithub size={50} title="Git" /></i>
+                  <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
                 </li>
               </a>
-              <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
-                <i className="card-icon "> <AiOutlineLink size={50} title="Git" /></i>
+              <a href="https://lavraiemifa.fr/" target="_blank" rel="noopener noreferrer">
+                <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
             </Card>
         </div>
@@ -71,11 +71,11 @@ const Projets = () => {
             <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
               <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
                 <li>
-                  <i className="card-icon "> <AiFillGithub size={50} title="Git" /></i>
+                  <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
                 </li>
               </a>
-              <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
-                <i className="card-icon "> <AiOutlineLink size={50} title="Git" /></i>
+              <a href="https://lavraiemifa.fr/" target="_blank" rel="noopener noreferrer">
+                <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
           </Card>
         </div>
@@ -92,11 +92,11 @@ const Projets = () => {
               <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
               <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
                 <li>
-                  <i className="card-icon "> <AiFillGithub size={50} title="Git" /></i>
+                  <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
                 </li>
               </a>
-              <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
-                <i className="card-icon "> <AiOutlineLink size={50} title="Git" /></i>
+              <a href="https://lavraiemifa.fr/" target="_blank" rel="noopener noreferrer">
+                <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
             </Card>
           </div>
@@ -110,11 +110,11 @@ const Projets = () => {
               <p>Site web réalisé entre amis pour découvrir Symfony et la configuration serveur.</p>
               <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
                 <li>
-                  <i className="card-icon "> <AiFillGithub size={50} title="Git" /></i>
+                  <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
                 </li>
               </a>
-              <a href="https://github.com/votre-utilisateur/LaVraieMifa" target="_blank" rel="noopener noreferrer">
-                <i className="card-icon "> <AiOutlineLink size={50} title="Git" /></i>
+              <a href="https://lavraiemifa.fr/" target="_blank" rel="noopener noreferrer">
+                <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
             </Card>
           </div>
