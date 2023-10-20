@@ -41,7 +41,7 @@ const Competences = () => {
           initial="hidden"
           animate="visible"
         >
-          <h2>Languages :</h2>
+          <h2>Langages :</h2>
 
           <div className="wrapper">
           <motion.li className="item" variants={item}>
