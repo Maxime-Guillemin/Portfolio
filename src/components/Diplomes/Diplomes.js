@@ -52,7 +52,7 @@ function Diplomes() {
           </h6>
           <p>
             Formation en informatique, avec spécialisation en développement web
-            et framework. Réalisé en un an en alternance.
+            et framework. Réalisée en un an en alternance.
           </p>
         </VerticalTimelineElement>
 
