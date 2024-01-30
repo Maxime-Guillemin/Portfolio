@@ -4,7 +4,7 @@ import transition from "../../transition"
 import {
   SiTypescript, SiJavascript, SiCsharp, SiCplusplus, SiReact, SiSymfony, SiLaravel, SiAndroidstudio, SiUnity, SiGit, SiSpring
 } from "react-icons/si";
-import { FaJava, FaNode } from "react-icons/fa"
+import { FaJava, FaNode, FaVuejs, FaAngular } from "react-icons/fa"
 import { TbBrandKotlin, TbSql } from "react-icons/tb"
 import { motion } from "framer-motion"
 
@@ -79,7 +79,13 @@ const Competences = () => {
           <div className="wrapper">
           <motion.li className="item" variants={item}>
             <SiReact size={50} title="React" />
-          </motion.li>
+            </motion.li>
+            <motion.li className="item" variants={item}>
+              <FaVuejs size={50} title="Vue" />
+            </motion.li>
+            <motion.li className="item" variants={item}>
+              <FaAngular size={50} title="Angular" />
+            </motion.li>
           <motion.li className="item" variants={item}>
             <SiSymfony size={50} title="Symfony" />
           </motion.li>
