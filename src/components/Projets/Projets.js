@@ -19,6 +19,7 @@ import LaravelOutil from '../../assets/LaravelOutils.jpg';
 import CentreVille from '../../assets/CentreVille.jpg';
 import Portfolio from '../../assets/Portfolio.jpg';
 import IndicateurOdema from '../../assets/IndicateurOdema.jpg';
+import Uama from '../../assets/Uama.jpg'
 
 
 const Projets = () => {
@@ -151,7 +152,26 @@ const Projets = () => {
               </a>
             </Card>
           </motion.div>
-        </Col>
+          </Col>
+          
+          <Col lg="3">
+            <motion.div variants={item} className="card-container">
+              <Card style={{ backgroundColor: "#2d4059" }} title="Uama" bordered={false}>
+                <img className="card-image mb-2" src={Uama} alt="Uama" />
+                <Tag color={color.react}>React</Tag>
+                <Tag color={color.symfony}>Symfony</Tag>
+                <p className='mt-2'>Projet cas thématiques du Master conçu pour soutenir les assistantes maternelles dans leurs activités de gestion. (git privé)</p>
+                <div className="icon-container">
+                  <a href="https://github.com/miage-amiens-organization/2023_M2_PRO-03_GR12" target="_blank" rel="noopener noreferrer">
+                    <i className="card-icon git"> <AiFillGithub size={50} title="GitHub" /></i>
+                  </a>
+                  <a href="https://www.uama.fr" target="_blank" rel="noopener noreferrer">
+                    <i className="card-icon link"> <AiOutlineLink size={50} title="Link" /></i>
+                  </a>
+                </div>
+              </Card>
+            </motion.div>
+          </Col>
 
       </Row>
       </motion.div>
