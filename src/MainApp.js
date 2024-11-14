@@ -7,6 +7,7 @@ import APropos from './components/APropos/APropos';
 import Projets from './components/Projets/Projets';
 import Diplomes from './components/Diplomes/Diplomes';
 import { AnimatePresence } from 'framer-motion';
+import Experiences from './components/Experiences/Experiences';
 
 
 function MainApp() {
@@ -18,18 +19,21 @@ function MainApp() {
       <div className="MainApp">
         <AnimatePresence mode="wait">
           <Switch
-          location={location} key={location.pathname}>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/competence">
-            <Competence />
-          </Route>
-          <Route exact path="/APropos">
-            <APropos />
-          </Route>
-          <Route exact path="/diplomes">
-            <Diplomes />
+            location={location} key={location.pathname}>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/competence">
+              <Competence />
+            </Route>
+            <Route exact path="/APropos">
+              <APropos />
+            </Route>
+            <Route exact path="/diplomes">
+              <Diplomes />
+            </Route>
+            <Route exact path="/experiences">
+              <Experiences />
             </Route>
             <Route exact path="/Projets">
               <Projets />

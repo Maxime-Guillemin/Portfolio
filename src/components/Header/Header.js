@@ -65,6 +65,12 @@ const Header = () => {
                  <Link to="/competence">Compétences</Link>
               </Nav.Link>
               <Nav.Link
+                className={`header-navbar-link ${activeLink === '/experiences' ? ' active' : ''}`}
+                onClick={() => handleLinkClick('/experiences')}
+              >
+                <Link to="/experiences">Expériences</Link>
+              </Nav.Link>
+              <Nav.Link
                 className={`header-navbar-link ${activeLink === '/projets' ? ' active' : ''}`}
                 onClick={() => handleLinkClick('/projets')}
               >
