@@ -108,7 +108,7 @@ const Projets = () => {
                   <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
                 </li>
               </a>
-              <a href="https://sig.hautsdefrance.fr/ext/dashboard-cv/7486746456oikopiklp56456lv4/" target="_blank" rel="noopener noreferrer">
+                <a href="https://sig.hautsdefrance.fr/ext/tableaudebord-cv/" target="_blank" rel="noopener noreferrer">
                 <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
           </Card>
@@ -147,7 +147,7 @@ const Projets = () => {
                   <i className="card-icon git"> <AiFillGithub size={50} title="Git" /></i>
                 </li>
               </a>
-                <a href="https://www.geo2france.fr/public/odema/indicateur/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.geo2france.fr/public/odema/" target="_blank" rel="noopener noreferrer">
                 <i className="card-icon link"> <AiOutlineLink size={50} title="Git" /></i>
               </a>
             </Card>
